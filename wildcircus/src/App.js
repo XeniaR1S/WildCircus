@@ -1,11 +1,11 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 
-import Home from './compenents/Home';
-import Artist from './compenents/Artist';
-import Prices from './compenents/Prices';
-import Reservation from './compenents/Reservation';
-import Contact from './compenents/Contact';
+import Home from './components/Home';
+import Artist from './components/Artist';
+import Prices from './components/Prices';
+import Reservation from './components/Reservation';
+import Contact from './components/Contact';
 
 import './App.css';
 
