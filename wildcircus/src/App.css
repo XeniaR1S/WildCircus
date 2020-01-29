@@ -1,38 +1,77 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+
+/* -------------------- APP --------------------*/
+
+
+
+
+
+/* -------------------- CONTACT --------------------*/
+
+
+.content-contact{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(30, 31, 30);
+  color: antiquewhite;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+}
+
+.content-contact a {
+  text-decoration: none;
+  color: grey;
+}
+
+.content-contact > a :hover {
+  color: antiquewhite;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.4em;
+  margin-top: 15%;
+
+}
+
+.contact-school{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-school > ul li {
+  list-style-type:none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-author {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-author > ul li{
+  list-style-type:none;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* -------------------- ARTIST --------------------*/
+
+
+
+
+
+/* -------------------- HOME --------------------*/
+
+
+
+
+/* -------------------- PRICES --------------------*/
+
+
+
+
+
+/* -------------------- RESSERVATION --------------------*/
