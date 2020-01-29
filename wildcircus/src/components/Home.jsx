@@ -11,10 +11,10 @@ class Home extends React.Component {
         <figure className='figure-logo'>
           <img className='img-logo' src={Logo} alt='Logo Wild Circus'/>
         </figure>
-          <Link to="/artist"/>
-          <Link to="/prices"/>
-          <Link to="/reservation"/>
-          <Link to="/contact"/>
+          <Link to="/artist">Our artist</Link>
+          <Link to="/prices">Prices</Link>
+          <Link to="/reservation">Reservations</Link>
+          <Link to="/contact">Contact</Link>
       </div>
     );
   }
