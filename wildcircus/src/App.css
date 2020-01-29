@@ -23,12 +23,9 @@
 
 .content-contact a {
   text-decoration: none;
-  color: grey;
+  color: rgb(121, 183, 202)
 }
 
-.content-contact > a :hover {
-  color: antiquewhite;
-}
 
 .contact {
   display: flex;
