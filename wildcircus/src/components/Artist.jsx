@@ -1,4 +1,5 @@
 import React from 'react';
+import BackArrow from './BackArrow'
 
 import ClicFluc from '../img/laugh.jpg'
 import Aladdin from '../img/dream.jpg'
@@ -44,6 +45,7 @@ class Artist extends React.Component {
             <li>Speciality : Don't get devoured</li>
           </ul>
         </div>
+        <BackArrow/>
       </div>
     );
   }

@@ -1,11 +1,15 @@
 import React from 'react';
 import '../App.css';
+import BackArrow from './BackArrow';
 
 class Contact extends React.Component {
   render() {
     return (
       <div className='content-contact'>
-        <p className='contact-title'>CONTACT</p>
+        <div className='head-contact'>
+          
+          <p className='contact-title'>CONTACT</p>
+        </div>
         <div className="contact"> 
           <div className='contact-author'>
             <ul>  
@@ -29,8 +33,8 @@ class Contact extends React.Component {
               <li>06.58.30.24.94</li>
             </ul>
           </div>
-         
         </div>
+        <BackArrow/>
       </div>
     );
   }
