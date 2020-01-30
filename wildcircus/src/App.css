@@ -9,10 +9,120 @@
   width: 100%;
 }
 
+/* -------------------- HOME --------------------*/
+
+@media screen and (max-width: 767px) {
+  .figure-logo > img {
+    width: 80%;
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(121, 122, 121);
+  height: 100vh;
+}
+
+.figure-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.home > a {
+  margin-top: 2em;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.home > a:hover {
+  color: rgb(30, 31, 30);
+}
+
+/* -------------------- ARTIST --------------------*/
+
+
+@media screen and (max-width: 767px) {
+  .figure-laugh > .img-laugh {
+    width: 100%;
+  }
+
+  .figure-dream > .img-dream {
+    width: 100%;
+  } 
+
+  .figure-marvel > .img-marvel {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .figure-laugh > .img-laugh {
+    width: 40%;
+  }
+  
+  .figure-dream > .img-dream {
+    width: 40%;
+  } 
+  
+  .figure-marvel > .img-marvel {
+    width: 40%;
+  }
+}
+
+
+
+.artist {
+  width: 100%;
+  background-color: rgb(30, 31, 30);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;   
+}
+
+.artist-title {
+  font-family: 'Bebas Neue', cursive;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.artist-card {
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.artist-card > ul li {
+  list-style-type:none;
+}
+
 
 
 /* -------------------- CONTACT --------------------*/
 
+
+@media screen and (max-width: 767px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .contact-school > ul {
+    padding: 0;
+  }
+
+  .contact-author > ul {
+    padding: 0;
+  }
+}
 
 .content-contact{
   width: 100%;
@@ -20,8 +130,7 @@
   background-color: rgb(30, 31, 30);
   color: antiquewhite;
   font-family: 'Bebas Neue', cursive;
-  font-size: 3em;
-  
+  font-size: 3em;  
 }
 
 .contact-title {
@@ -65,67 +174,7 @@
 }
 
 
-/* -------------------- ARTIST --------------------*/
 
-@media screen and (max-width: 767px) {
-  .figure-laugh > .img-laugh {
-    width: 100%;
-  }
-
-  .figure-dream > .img-dream {
-    width: 100%;
-  } 
-
-  .figure-marvel > .img-marvel {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .figure-laugh > .img-laugh {
-    width: 50%;
-  }
-  
-  .figure-dream > .img-dream {
-    width: 50%;
-  } 
-  
-  .figure-marvel > .img-marvel {
-    width: 50%;
-  }
-}
-
-.artist {
-  width: 100%;
-  background-color: rgb(30, 31, 30);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  color: antiquewhite;   
-}
-
-.artist-title {
-  font-family: 'Bebas Neue', cursive;
-  text-align: left;
-  margin-left: 0.5em;
-  margin-top: 0;
-  font-size: 3em;
-}
-
-.artist-card {
-  width: 100%;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-}
-
-.artist-card > ul li {
-  list-style-type:none;
-}
-
-
-
-/* -------------------- HOME --------------------*/
 
 
 
