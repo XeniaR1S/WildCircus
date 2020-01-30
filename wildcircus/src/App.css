@@ -21,6 +21,12 @@
   color: antiquewhite;
   font-family: 'Bebas Neue', cursive;
   font-size: 3em;
+  
+}
+
+.contact-title {
+  margin-top: 0;
+  margin-left: 0.5em;
 }
 
 .content-contact a {
@@ -40,7 +46,6 @@
   font-family: 'Poppins', sans-serif;
   font-size: 0.4em;
   margin-top: 15%;
-
 }
 
 .contact-school{
