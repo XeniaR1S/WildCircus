@@ -12,7 +12,7 @@ class Contact extends React.Component {
               <li>Wild Code School</li>
               <li>6 rue de Saint Brice</li>
               <li>51100 - Reims</li>
-              <li><a href='https://www.wildcodeschool.com/fr-FR'> Site Web  </a></li>
+              <li><a target="_blank" href='https://www.wildcodeschool.com/fr-FR'> Site Web  </a></li>
               
               <li>Campus manager : Clément Béchetoille</li>
               <li>clement@wildcodeschool.fr</li> 
@@ -23,8 +23,8 @@ class Contact extends React.Component {
             <ul>  
             <li>Xénia LECOMTE PRUD'HOMME</li>
             <li>E-mail : lecomtep.x@gmail.com</li>
-            <li><a href='https://github.com/XeniaR1S'>GitHub</a></li>
-            <li><a href='https://www.linkedin.com/in/x%C3%A9nia-lecomte-704baa18b/'>LinkedIn</a></li>
+            <li><a target="_blank" href='https://github.com/XeniaR1S'>GitHub</a></li>
+            <li><a target="_blank" href='https://www.linkedin.com/in/x%C3%A9nia-lecomte-704baa18b/'>LinkedIn</a></li>
             </ul>
           </div>
         </div>
